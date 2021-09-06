@@ -10,7 +10,7 @@ It represents the cost of the path that is estimated to be most efficient toward
 The function `g(n)` calculates the path cost between the source node and the current node. The second function `h(n)` is a heuristic to calculate the estimated path cost from the current node to the destination node.  
 
 ## Algorithm
-The A* algorithms:  
+The A* algorithm:  
 1. Create an open list and a closed list that are both empty.  
 2. Put the start node in the open list.
 3. Loop this until the goal is found or the open list is empty:  
